@@ -5,6 +5,34 @@ import java.math.BigDecimal;
 public class TestFloat {
 
     public static void main(String[] args) {
+        testAccuracy();
+    }
+
+    private static void testAccuracy() {
+        float a = 1;
+        float b = 2;
+        float c = 3;
+        if (c == a + b) {
+            System.out.println("equal");
+        } else {
+            System.out.println("not equal");
+        }
+
+        float a1 = 0.1f;
+        float a2 = 0.2f;
+        float a3 = 0.3f;
+        System.out.println(a1 + a2);
+        if (a3 == a1 + a2) {
+            System.out.println("equal");
+        } else {
+            System.out.println("not equal");
+        }
+    }
+
+    /**
+     * 获取浮点数的一些基础信息
+     */
+    private static void getBasicInfo() {
         Float max = Float.MAX_VALUE;
         System.out.println("max is " + max);
         // float to bit
@@ -23,11 +51,11 @@ public class TestFloat {
         System.out.println("bit size is " + size);
         int byteSize = Float.SIZE / Byte.SIZE;
         System.out.println("byte size is " + byteSize);
-
     }
 
     /**
-     * 既然0.25 可以精确表示，为什么乘以86400 000 之后，还是有误差呢？
+     * 既然0.25 可以精确（0.01）表示，为什么乘以86400 000 之后，还是有误差呢？
+     * 这是因为 乘法之后，也是要经过舍入操作的。具体可以参考下 组成原理里面的数值。
      */
     private void getTimestamp () {
         Long time = 1622822402000L;

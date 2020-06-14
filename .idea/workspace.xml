@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9164b47d-cade-490f-aa02-337787650520" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/result.obj2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Number/TestFloat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Number/TestFloat.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +30,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="debugger.stepping" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -42,7 +44,59 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestStatic">
+  <component name="RunManager" selected="Application.Abnormal">
+    <configuration name="Abnormal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.HashcodeAndEqual.Abnormal" />
+      <module name="zpLearnJDK" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.HashcodeAndEqual.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BigCar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.HashcodeAndEqual.BigCar" />
+      <module name="zpLearnJDK" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.HashcodeAndEqual.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.HashcodeAndEqual.Car" />
+      <module name="zpLearnJDK" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.HashcodeAndEqual.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Hashcode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.HashcodeAndEqual.Hashcode" />
+      <module name="zpLearnJDK" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.HashcodeAndEqual.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestFloat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.Number.TestFloat" />
       <module name="zpLearnJDK" />
@@ -56,51 +110,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.hashMap.TestHashMap" />
-      <module name="zpLearnJDK" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.hashMap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestStatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.Serializable.TestStatic" />
-      <module name="zpLearnJDK" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.Serializable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="testSerializable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.Serializable.testSerializable" />
-      <module name="zpLearnJDK" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.Serializable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestStatic" />
-        <item itemvalue="Application.testSerializable" />
+        <item itemvalue="Application.Abnormal" />
+        <item itemvalue="Application.Hashcode" />
+        <item itemvalue="Application.BigCar" />
+        <item itemvalue="Application.Car" />
         <item itemvalue="Application.TestFloat" />
-        <item itemvalue="Application.TestHashMap" />
       </list>
     </recent_temporary>
   </component>
@@ -116,7 +132,28 @@
       <updated>1591319265928</updated>
       <workItem from="1591319267144" duration="8969000" />
       <workItem from="1591493952750" duration="18324000" />
+      <workItem from="1591612572841" duration="11831000" />
+      <workItem from="1591683609829" duration="122000" />
+      <workItem from="1591683975646" duration="6700000" />
+      <workItem from="1591773271698" duration="10707000" />
+      <workItem from="1592035248212" duration="8150000" />
+      <workItem from="1592114660133" duration="3009000" />
     </task>
+    <task id="LOCAL-00001" summary="父类 序列化 操作">
+      <created>1591618612292</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591618612293</updated>
+    </task>
+    <task id="LOCAL-00002" summary="float 的测试类">
+      <created>1591864984820</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591864984820</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +172,11 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="父类 序列化 操作" />
+    <MESSAGE value="float 的测试类" />
+    <option name="LAST_COMMIT_MESSAGE" value="float 的测试类" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -144,19 +186,29 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/Number/TestFloat.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/Number/TestFloat.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/Serializable/TestStatic.java</url>
           <line>13</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/source/java/lang/Integer.java</url>
+          <line>558</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/Number/TestInteger.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/Number/TestInteger.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/FloatingDecimal.class</url>
+          <line>121</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

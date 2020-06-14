@@ -5,7 +5,28 @@ import java.math.BigDecimal;
 public class TestFloat {
 
     public static void main(String[] args) {
-        testAccuracy();
+        testHashcodeAndEqual();
+    }
+
+    private static void testHashcodeAndEqual() {
+        Float f = 4.905f;
+        System.out.println(f.hashCode());
+        Float f2 = 4.905f;
+        System.out.println(f.equals(f2));
+    }
+
+    /**
+     * float 跟其他类型的转换。只有转double 是扩大，转其他类型，比如long byte int 都是缩小精度。
+     */
+    private static void testCastTrans() {
+        Float floatNumber= 4.95f;
+        Double doubleNumber= floatNumber.doubleValue();
+
+        System.out.println(doubleNumber);
+
+        Long longNumber = floatNumber.longValue();
+        System.out.println(longNumber);
+
     }
 
     private static void testAccuracy() {

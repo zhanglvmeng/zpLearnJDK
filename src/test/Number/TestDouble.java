@@ -9,5 +9,7 @@ public class TestDouble {
         System.out.println(d1 + d2);
         System.out.println(d3 == d1 + d2);
 
+        d1.compareTo(d2);
+
     }
 }

@@ -28,6 +28,7 @@ public class StaticDisptch {
 
     /**
      * 静态分派，静态类型 在编译期间就决定类型了，所以 返回的结果都是 hello human
+     * 静态分派，相当于Java中重载的体现
      * @param args
      */
     public static void main(String[] args) {

@@ -2567,6 +2567,7 @@ public final class String
         final int len = value.length;
 
         /* Now check if there are any characters that need to be changed. */
+        // 检查是否需要转换，如果所有的char 都不需要转换，那么就返回当前string 就好。
         scan: {
             for (firstUpper = 0 ; firstUpper < len; ) {
                 char c = value[firstUpper];

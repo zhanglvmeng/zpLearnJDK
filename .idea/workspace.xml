@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9164b47d-cade-490f-aa02-337787650520" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/result.obj2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Collection/List/CopyOnWriteArrayListDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Number/TestFloat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Number/TestFloat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Collection/List/ArrayListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Collection/List/ArrayListDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +15,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -32,6 +33,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test.Number" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -44,13 +50,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Abnormal">
-    <configuration name="Abnormal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.HashcodeAndEqual.Abnormal" />
+  <component name="RunManager" selected="Application.CopyOnWriteArrayListDemo">
+    <configuration name="ArrayListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Collection.List.ArrayListDemo" />
       <module name="zpLearnJDK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.HashcodeAndEqual.*" />
+          <option name="PATTERN" value="test.Collection.List.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BigCar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.HashcodeAndEqual.BigCar" />
+    <configuration name="CopyOnWriteArrayListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Collection.List.CopyOnWriteArrayListDemo" />
       <module name="zpLearnJDK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.HashcodeAndEqual.*" />
+          <option name="PATTERN" value="test.Collection.List.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.HashcodeAndEqual.Car" />
+    <configuration name="LinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Collection.List.LinkedListDemo" />
       <module name="zpLearnJDK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.HashcodeAndEqual.*" />
+          <option name="PATTERN" value="test.Collection.List.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hashcode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.HashcodeAndEqual.Hashcode" />
+    <configuration name="TestStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.StreamAndLambda.TestStream" />
       <module name="zpLearnJDK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.HashcodeAndEqual.*" />
+          <option name="PATTERN" value="test.StreamAndLambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestFloat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.Number.TestFloat" />
+    <configuration name="TestString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.String.TestString" />
       <module name="zpLearnJDK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.Number.*" />
+          <option name="PATTERN" value="test.String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Abnormal" />
-        <item itemvalue="Application.Hashcode" />
-        <item itemvalue="Application.BigCar" />
-        <item itemvalue="Application.Car" />
-        <item itemvalue="Application.TestFloat" />
+        <item itemvalue="Application.CopyOnWriteArrayListDemo" />
+        <item itemvalue="Application.LinkedListDemo" />
+        <item itemvalue="Application.ArrayListDemo" />
+        <item itemvalue="Application.TestStream" />
+        <item itemvalue="Application.TestString" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +143,14 @@
       <workItem from="1591683975646" duration="6700000" />
       <workItem from="1591773271698" duration="10707000" />
       <workItem from="1592035248212" duration="8150000" />
-      <workItem from="1592114660133" duration="3009000" />
+      <workItem from="1592114660133" duration="6316000" />
+      <workItem from="1592270266286" duration="23514000" />
+      <workItem from="1594029280522" duration="181000" />
+      <workItem from="1594084547787" duration="6110000" />
+      <workItem from="1594113582249" duration="275000" />
+      <workItem from="1594169355326" duration="4029000" />
+      <workItem from="1594257222140" duration="633000" />
+      <workItem from="1594343264811" duration="401000" />
     </task>
     <task id="LOCAL-00001" summary="父类 序列化 操作">
       <created>1591618612292</created>
@@ -153,7 +166,70 @@
       <option name="project" value="LOCAL" />
       <updated>1591864984820</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="枚举相关测试">
+      <created>1592357080533</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592357080533</updated>
+    </task>
+    <task id="LOCAL-00004" summary="short相关测试">
+      <created>1592359344787</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592359344787</updated>
+    </task>
+    <task id="LOCAL-00005" summary="char 的结构与 Unicode 的关系">
+      <created>1592443608699</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1592443608699</updated>
+    </task>
+    <task id="LOCAL-00006" summary="实验了一下instanceOf">
+      <created>1592528557953</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1592528557953</updated>
+    </task>
+    <task id="LOCAL-00007" summary="实验多态 跟 静态分派">
+      <created>1592639654682</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1592639654682</updated>
+    </task>
+    <task id="LOCAL-00008" summary="测试bigDecimal 跟 string">
+      <created>1593480029895</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1593480029895</updated>
+    </task>
+    <task id="LOCAL-00009" summary="修改gitignore">
+      <created>1593480068300</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1593480068300</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add stream">
+      <created>1593996098799</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1593996098799</updated>
+    </task>
+    <task id="LOCAL-00011" summary="arrayList demo">
+      <created>1594101555893</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1594101555893</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,7 +251,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="父类 序列化 操作" />
     <MESSAGE value="float 的测试类" />
-    <option name="LAST_COMMIT_MESSAGE" value="float 的测试类" />
+    <MESSAGE value="枚举相关测试" />
+    <MESSAGE value="short相关测试" />
+    <MESSAGE value="char 的结构与 Unicode 的关系" />
+    <MESSAGE value="实验了一下instanceOf" />
+    <MESSAGE value="实验多态 跟 静态分派" />
+    <MESSAGE value="测试bigDecimal 跟 string" />
+    <MESSAGE value="修改gitignore" />
+    <MESSAGE value="add stream" />
+    <MESSAGE value="arrayList demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="arrayList demo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -209,6 +294,56 @@
           <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/FloatingDecimal.class</url>
           <line>121</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/StreamAndLambda/TestStream.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/Collection/List/ArrayListDemo.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/Collection/List/ArrayListDemo.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/Collection/List/ArrayListDemo.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/source/java/util/ArrayList.java</url>
+          <line>722</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/source/java/util/ArrayList.java</url>
+          <line>723</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/source/java/util/ArrayList.java</url>
+          <line>724</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/Collection/List/ArrayListDemo.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/source/java/util/ArrayList.java</url>
+          <line>692</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/source/java/util/ArrayList.java</url>
+          <line>693</line>
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

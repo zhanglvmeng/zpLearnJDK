@@ -16,7 +16,7 @@ public class ArrayListDemo {
         l.add("b");
         l.add("c");
 
-        l.add(2,"d");
+        l.add(2, "d");
         l.forEach(x -> System.out.println(x));
 
 //        List<String> l2 = new ArrayList<>();
@@ -47,7 +47,7 @@ public class ArrayListDemo {
         l.add("b");
         l.add("c");
 
-        l.add(2,"d");
+        l.add(2, "d");
         l.forEach(x -> System.out.println(x));
 
         List<String> l2 = Arrays.asList("d", "a");
@@ -67,10 +67,11 @@ public class ArrayListDemo {
 }
 
 
+class Father {
+}
 
-class Father {}
-
-class Son extends Father {}
+class Son extends Father {
+}
 
 class MyList extends ArrayList<String> {
     @Override

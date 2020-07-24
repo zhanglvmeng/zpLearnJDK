@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9164b47d-cade-490f-aa02-337787650520" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/Collection/List/CopyOnWriteArrayListDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Collection/List/ArrayListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Collection/List/ArrayListDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/hashMap/TestHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/hashMap/TestHashMap.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +34,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test.hashMap" />
+      <recent name="test.Volatile" />
       <recent name="test.Number" />
     </key>
   </component>
@@ -50,13 +51,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CopyOnWriteArrayListDemo">
-    <configuration name="ArrayListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.Collection.List.ArrayListDemo" />
+  <component name="RunManager" selected="Application.BitDemo">
+    <configuration name="BitDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.bit.BitDemo" />
       <module name="zpLearnJDK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.Collection.List.*" />
+          <option name="PATTERN" value="test.bit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CopyOnWriteArrayListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.Collection.List.CopyOnWriteArrayListDemo" />
+    <configuration name="CAS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Lock.CAS" />
       <module name="zpLearnJDK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.Collection.List.*" />
+          <option name="PATTERN" value="test.Lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.Collection.List.LinkedListDemo" />
+    <configuration name="ReentrantLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Lock.ReentrantLockDemo" />
       <module name="zpLearnJDK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.Collection.List.*" />
+          <option name="PATTERN" value="test.Lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.StreamAndLambda.TestStream" />
+    <configuration name="TestConcurrentHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.hashMap.TestConcurrentHashMap" />
       <module name="zpLearnJDK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.StreamAndLambda.*" />
+          <option name="PATTERN" value="test.hashMap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.String.TestString" />
+    <configuration name="TestHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.hashMap.TestHashMap" />
       <module name="zpLearnJDK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.String.*" />
+          <option name="PATTERN" value="test.hashMap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CopyOnWriteArrayListDemo" />
-        <item itemvalue="Application.LinkedListDemo" />
-        <item itemvalue="Application.ArrayListDemo" />
-        <item itemvalue="Application.TestStream" />
-        <item itemvalue="Application.TestString" />
+        <item itemvalue="Application.BitDemo" />
+        <item itemvalue="Application.ReentrantLockDemo" />
+        <item itemvalue="Application.TestConcurrentHashMap" />
+        <item itemvalue="Application.TestHashMap" />
+        <item itemvalue="Application.CAS" />
       </list>
     </recent_temporary>
   </component>
@@ -151,6 +152,13 @@
       <workItem from="1594169355326" duration="4029000" />
       <workItem from="1594257222140" duration="633000" />
       <workItem from="1594343264811" duration="401000" />
+      <workItem from="1594827801789" duration="3399000" />
+      <workItem from="1594863321627" duration="1859000" />
+      <workItem from="1594900186474" duration="5913000" />
+      <workItem from="1595162722381" duration="4377000" />
+      <workItem from="1595413659438" duration="7537000" />
+      <workItem from="1595575744478" duration="6804000" />
+      <workItem from="1595589581250" duration="1128000" />
     </task>
     <task id="LOCAL-00001" summary="父类 序列化 操作">
       <created>1591618612292</created>
@@ -229,7 +237,21 @@
       <option name="project" value="LOCAL" />
       <updated>1594101555893</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="arrayList demo">
+      <created>1594827861499</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1594827861499</updated>
+    </task>
+    <task id="LOCAL-00013" summary="volatile 的用法，以及volatile跟static的区别。">
+      <created>1594831359029</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1594831359029</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,14 +282,15 @@
     <MESSAGE value="修改gitignore" />
     <MESSAGE value="add stream" />
     <MESSAGE value="arrayList demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="arrayList demo" />
+    <MESSAGE value="volatile 的用法，以及volatile跟static的区别。" />
+    <option name="LAST_COMMIT_MESSAGE" value="volatile 的用法，以及volatile跟static的区别。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/hashMap/TestHashMap.java</url>
-          <line>8</line>
+          <line>9</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

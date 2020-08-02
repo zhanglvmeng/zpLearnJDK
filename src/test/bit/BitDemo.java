@@ -34,7 +34,13 @@ public class BitDemo {
     private static int typeBits = 4;
 
     public static void main(String[] args) {
-        testBasic();
+//        testBasic();
+        testLong();
+    }
+
+    public static void testLong () {
+        long timestampMask = 0x7000000000000000l ;
+        System.out.println(timestampMask);
     }
 
     public static void testBasic () {

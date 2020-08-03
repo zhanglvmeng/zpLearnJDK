@@ -4,6 +4,10 @@ import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.*;
 import java.util.Arrays;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.atomic.AtomicLong;
 
 import static java.time.ZoneId.SHORT_IDS;
 
@@ -15,7 +19,7 @@ public class LocalDateTimeDemo {
 //        testLocalTime();
 //        testInstant();
 //        testLocalDate();
-        testClock();
+        testClockAndSystemCurrentTime();
     }
 
     public static void testLambda() {
@@ -86,9 +90,30 @@ public class LocalDateTimeDemo {
         LocalDate l = LocalDate.now();
         l.isLeapYear();
         Clock c = Clock.systemUTC();
-        System.out.println(c);
+        System.out.println(Clock.systemUTC().millis());
         System.out.println(System.currentTimeMillis());
         System.out.println(c.millis());
         System.out.println(System.currentTimeMillis() - c.millis());
     }
+
+    public static void testClockAndSystemCurrentTime() {
+        int times=Integer.MAX_VALUE;
+
+        long start = System.currentTimeMillis();
+        for (long i = 0; i < times; i++) {
+            SystemClock.millisClock().now();
+        }
+        long end = System.currentTimeMillis();
+
+        System.out.println("SystemClock Time:" + (end - start) + "毫秒");
+
+        long start2 = System.currentTimeMillis();
+        for (long i = 0; i < times; i++) {
+            System.currentTimeMillis();
+        }
+        long end2 = System.currentTimeMillis();
+        System.out.println("SystemCurrentTimeMillis Time:" + (end2 - start2) + "毫秒");
+    }
+
+
 }

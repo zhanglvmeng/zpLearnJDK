@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9164b47d-cade-490f-aa02-337787650520" name="Default Changelist" comment="">
+    <list default="true" id="9164b47d-cade-490f-aa02-337787650520" name="Default Changelist" comment="volatile 的用法，以及volatile跟static的区别。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/bit/BitDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/bit/BitDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Time/LocalDateTimeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Time/LocalDateTimeDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DateTimeFormatterCase">
+  <component name="RunManager" selected="Application.LocalDateTimeDemo">
     <configuration name="DateTimeFormatterCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.date.DateTimeFormatterCase" />
       <module name="zpLearnJDK" />
@@ -119,9 +119,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LocalDateTimeDemo" />
         <item itemvalue="Application.DateTimeFormatterCase" />
         <item itemvalue="Application.SimpleDateFormatCase" />
-        <item itemvalue="Application.LocalDateTimeDemo" />
         <item itemvalue="Application.PriorityBlockingQueueDemo" />
         <item itemvalue="Application.PriorityQueueDemo" />
       </list>
@@ -164,7 +164,9 @@
       <workItem from="1595983478192" duration="3535000" />
       <workItem from="1596070746998" duration="4478000" />
       <workItem from="1596095189801" duration="1008000" />
-      <workItem from="1596108505249" duration="13550000" />
+      <workItem from="1596108505249" duration="22939000" />
+      <workItem from="1596369493093" duration="15000" />
+      <workItem from="1596413639442" duration="404000" />
     </task>
     <task id="LOCAL-00001" summary="父类 序列化 操作">
       <created>1591618612292</created>
@@ -386,7 +388,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/Time/LocalDateTimeDemo.java</url>
-          <line>21</line>
+          <line>25</line>
           <option name="timeStamp" value="49" />
         </line-breakpoint>
       </breakpoints>

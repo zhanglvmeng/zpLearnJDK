@@ -14,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -51,7 +52,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GenericsClassTypeDemo">
+  <component name="RunManager" selected="Application.AnnotationDemo">
+    <configuration name="AnnotationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.annotation.AnnotationDemo" />
+      <module name="zpLearnJDK" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.annotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ClassNoGenericsButMethodHas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.generics.ClassNoGenericsButMethodHas" />
       <module name="zpLearnJDK" />
@@ -104,26 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleDateFormatCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.date.SimpleDateFormatCase" />
-      <module name="zpLearnJDK" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.date.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnnotationDemo" />
         <item itemvalue="Application.GenericsClassTypeDemo" />
         <item itemvalue="Application.ClassNoGenericsButMethodHas" />
         <item itemvalue="Application.LocalDateTimeDemo" />
         <item itemvalue="Application.DateTimeFormatterCase" />
-        <item itemvalue="Application.SimpleDateFormatCase" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +168,7 @@
       <workItem from="1596108505249" duration="22939000" />
       <workItem from="1596369493093" duration="15000" />
       <workItem from="1596413639442" duration="1957000" />
-      <workItem from="1596438890204" duration="1477000" />
+      <workItem from="1596438890204" duration="2642000" />
     </task>
     <task id="LOCAL-00001" summary="父类 序列化 操作">
       <created>1591618612292</created>
@@ -391,6 +392,16 @@
           <url>file://$PROJECT_DIR$/src/test/Time/LocalDateTimeDemo.java</url>
           <line>25</line>
           <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/annotation/AnnotationDemo.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/annotation/AnnotationDemo.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="52" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

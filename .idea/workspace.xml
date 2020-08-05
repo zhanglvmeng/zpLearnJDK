@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9164b47d-cade-490f-aa02-337787650520" name="Default Changelist" comment="volatile 的用法，以及volatile跟static的区别。">
+    <list default="true" id="9164b47d-cade-490f-aa02-337787650520" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,7 +52,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AnnotationDemo">
+  <component name="RunManager" selected="Application.ClassReflectionDemo">
     <configuration name="AnnotationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.annotation.AnnotationDemo" />
       <module name="zpLearnJDK" />
@@ -79,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DateTimeFormatterCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.date.DateTimeFormatterCase" />
+    <configuration name="ClassReflectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.reflection.ClassReflectionDemo" />
       <module name="zpLearnJDK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.date.*" />
+          <option name="PATTERN" value="test.reflection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClassReflectionDemo" />
         <item itemvalue="Application.AnnotationDemo" />
         <item itemvalue="Application.GenericsClassTypeDemo" />
         <item itemvalue="Application.ClassNoGenericsButMethodHas" />
         <item itemvalue="Application.LocalDateTimeDemo" />
-        <item itemvalue="Application.DateTimeFormatterCase" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +168,8 @@
       <workItem from="1596108505249" duration="22939000" />
       <workItem from="1596369493093" duration="15000" />
       <workItem from="1596413639442" duration="1957000" />
-      <workItem from="1596438890204" duration="2642000" />
+      <workItem from="1596438890204" duration="3769000" />
+      <workItem from="1596587665889" duration="2991000" />
     </task>
     <task id="LOCAL-00001" summary="父类 序列化 操作">
       <created>1591618612292</created>
@@ -261,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594831359029</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="添加 注解默认key">
+      <created>1596505900308</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1596505900308</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +301,8 @@
     <MESSAGE value="add stream" />
     <MESSAGE value="arrayList demo" />
     <MESSAGE value="volatile 的用法，以及volatile跟static的区别。" />
-    <option name="LAST_COMMIT_MESSAGE" value="volatile 的用法，以及volatile跟static的区别。" />
+    <MESSAGE value="添加 注解默认key" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加 注解默认key" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9164b47d-cade-490f-aa02-337787650520" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/reflection/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/reflection/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/reflection/DynamicProxyRefelctionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/reflection/DynamicProxyRefelctionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/reflection/ExtendRefelctionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/reflection/ExtendRefelctionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/reflection/FieldReflectionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/reflection/FieldReflectionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/reflection/MethodReflectionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/reflection/MethodReflectionDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,13 +52,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DynamicProxyRefelctionDemo">
-    <configuration name="ClassReflectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.reflection.ClassReflectionDemo" />
+  <component name="RunManager" selected="Application.CloneDemo">
+    <configuration name="CloneDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.clone.CloneDemo" />
       <module name="zpLearnJDK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.reflection.*" />
+          <option name="PATTERN" value="test.clone.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CloneDemo" />
         <item itemvalue="Application.DynamicProxyRefelctionDemo" />
         <item itemvalue="Application.ExtendRefelctionDemo" />
         <item itemvalue="Application.MethodReflectionDemo" />
         <item itemvalue="Application.FieldReflectionDemo" />
-        <item itemvalue="Application.ClassReflectionDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +169,8 @@
       <workItem from="1596369493093" duration="15000" />
       <workItem from="1596413639442" duration="1957000" />
       <workItem from="1596438890204" duration="3769000" />
-      <workItem from="1596587665889" duration="12547000" />
+      <workItem from="1596587665889" duration="14304000" />
+      <workItem from="1596709080446" duration="2061000" />
     </task>
     <task id="LOCAL-00001" summary="父类 序列化 操作">
       <created>1591618612292</created>
@@ -275,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596505900308</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="增加反射机制">
+      <created>1596678540923</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1596678540923</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,7 +310,8 @@
     <MESSAGE value="arrayList demo" />
     <MESSAGE value="volatile 的用法，以及volatile跟static的区别。" />
     <MESSAGE value="添加 注解默认key" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加 注解默认key" />
+    <MESSAGE value="增加反射机制" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加反射机制" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

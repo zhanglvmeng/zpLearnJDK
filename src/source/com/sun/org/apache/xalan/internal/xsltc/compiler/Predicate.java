@@ -350,7 +350,7 @@ final class Predicate extends Expression implements Closure {
     /**
      * Create a new "Filter" class implementing
      * <code>CurrentNodeListFilter</code>. Allocate registers for local
-     * variables and local parameters passed in the closure to test().
+     * variables and local parameters passed in the closure to testa().
      * Notice that local variables need to be "unboxed".
      */
     private void compileFilter(ClassGenerator classGen,

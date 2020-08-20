@@ -11,6 +11,7 @@ public class Super2Impl {
     public static void main(String[] args) {
         SuperImpl s = new SuperImpl();
         s.testa();
+
     }
 
 }

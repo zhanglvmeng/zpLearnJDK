@@ -3008,7 +3008,7 @@ public class XMLEntityManager implements XMLComponent, XMLEntityResolver {
         }
     } // end of RewindableInputStream class
 
-    public void test(){
+    public void testa(){
         //System.out.println("TESTING: Added familytree to entityManager");
         //Usecase1
         fEntityStorage.addExternalEntity("entityUsecase1",null,

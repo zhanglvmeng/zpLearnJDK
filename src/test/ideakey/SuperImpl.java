@@ -28,8 +28,13 @@ public class SuperImpl implements SuperInterface {
 
     //    aaaaa
     public static void main(String[] args) {
-        SuperImpl s = new SuperImpl();
-        s.testa();
+//        SuperImpl s = new SuperImpl();
+//        s.testa();
+
+        int i = 1;
+        for (;i < 7; i++) {
+            System.out.println(i);
+        }
     }
 
 

@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9164b47d-cade-490f-aa02-337787650520" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/clone/CloneDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/clone/CloneDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/source/com/sun/org/apache/xalan/internal/xsltc/compiler/Predicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/source/com/sun/org/apache/xalan/internal/xsltc/compiler/Predicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/source/com/sun/org/apache/xerces/internal/impl/XMLEntityManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/source/com/sun/org/apache/xerces/internal/impl/XMLEntityManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/source/java/lang/invoke/CallSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/source/java/lang/invoke/CallSite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/ideakey/Super2Impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ideakey/Super2Impl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/ideakey/SuperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ideakey/SuperImpl.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +23,7 @@
       <list>
         <option value="Enum" />
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -24,7 +32,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1csZT6IbSf5hZX05NiFluJpGqMz" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -35,6 +45,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test.ideakey" />
       <recent name="test.generics" />
       <recent name="test.hashMap" />
       <recent name="test.Volatile" />
@@ -53,13 +64,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CloneDemo">
-    <configuration name="CloneDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.clone.CloneDemo" />
+  <component name="RunManager" selected="Application.FloatTest">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.operator.Demo" />
       <module name="zpLearnJDK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.clone.*" />
+          <option name="PATTERN" value="test.operator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DynamicProxyRefelctionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.reflection.DynamicProxyRefelctionDemo" />
+    <configuration name="FinallyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.tryCatchFinally.FinallyDemo" />
       <module name="zpLearnJDK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.reflection.*" />
+          <option name="PATTERN" value="test.tryCatchFinally.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExtendRefelctionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.reflection.ExtendRefelctionDemo" />
+    <configuration name="FloatTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.switchcase.FloatTest" />
       <module name="zpLearnJDK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.reflection.*" />
+          <option name="PATTERN" value="test.switchcase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FieldReflectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.reflection.FieldReflectionDemo" />
+    <configuration name="SuperImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.ideakey.SuperImpl" />
       <module name="zpLearnJDK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.reflection.*" />
+          <option name="PATTERN" value="test.ideakey.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodReflectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.reflection.MethodReflectionDemo" />
+    <configuration name="SwitchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.switchcase.SwitchTest" />
       <module name="zpLearnJDK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.reflection.*" />
+          <option name="PATTERN" value="test.switchcase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CloneDemo" />
-        <item itemvalue="Application.DynamicProxyRefelctionDemo" />
-        <item itemvalue="Application.ExtendRefelctionDemo" />
-        <item itemvalue="Application.MethodReflectionDemo" />
-        <item itemvalue="Application.FieldReflectionDemo" />
+        <item itemvalue="Application.FloatTest" />
+        <item itemvalue="Application.SwitchTest" />
+        <item itemvalue="Application.FinallyDemo" />
+        <item itemvalue="Application.SuperImpl" />
+        <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +182,20 @@
       <workItem from="1596413639442" duration="1957000" />
       <workItem from="1596438890204" duration="3769000" />
       <workItem from="1596587665889" duration="14304000" />
-      <workItem from="1596709080446" duration="4043000" />
+      <workItem from="1596709080446" duration="5313000" />
+      <workItem from="1597200390686" duration="174000" />
+      <workItem from="1597233568845" duration="206000" />
+      <workItem from="1597364432963" duration="6484000" />
+      <workItem from="1597404474922" duration="1940000" />
+      <workItem from="1597458194777" duration="418000" />
+      <workItem from="1597478183478" duration="980000" />
+      <workItem from="1597544408242" duration="2379000" />
+      <workItem from="1597627166093" duration="519000" />
+      <workItem from="1597635406451" duration="886000" />
+      <workItem from="1597645941082" duration="1108000" />
+      <workItem from="1597676245012" duration="1833000" />
+      <workItem from="1597721396039" duration="548000" />
+      <workItem from="1597729489948" duration="309000" />
     </task>
     <task id="LOCAL-00001" summary="父类 序列化 操作">
       <created>1591618612292</created>
@@ -278,7 +302,21 @@
       <option name="project" value="LOCAL" />
       <updated>1596678540923</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="clone">
+      <created>1596763481250</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1596763481250</updated>
+    </task>
+    <task id="LOCAL-00017" summary="测试快捷键">
+      <created>1597458596450</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1597458596450</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,7 +350,9 @@
     <MESSAGE value="volatile 的用法，以及volatile跟static的区别。" />
     <MESSAGE value="添加 注解默认key" />
     <MESSAGE value="增加反射机制" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加反射机制" />
+    <MESSAGE value="clone" />
+    <MESSAGE value="测试快捷键" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试快捷键" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -436,6 +476,21 @@
           <url>file://$PROJECT_DIR$/src/test/reflection/MethodReflectionDemo.java</url>
           <line>60</line>
           <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/ideakey/SuperImpl.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/ideakey/SuperImpl.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/ideakey/SuperImpl.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="59" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
